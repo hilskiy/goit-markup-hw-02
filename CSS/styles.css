@@ -4,6 +4,7 @@
     --accent-color: #2196F3;
     --optional-white: #FFFFFF;
     --btn-color: #F5F4FA;
+    --addres-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -24,7 +25,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color)
 }
@@ -69,7 +70,7 @@ body {
 .hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36x;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -84,6 +85,7 @@ body {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -157,7 +159,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: var(--addres-color);
 }
 .address-item .address-google{
     color: var(--optional-white);
@@ -174,7 +176,7 @@ body {
 .button-text{
     background: #F5F4FA;
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
